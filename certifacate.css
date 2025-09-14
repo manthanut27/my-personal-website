@@ -1,0 +1,68 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #021024;
+            color: #7DA0CA;
+            background-image: url('../project/assest/bg1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        nav {
+            background: #052659;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 50px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #C1E8FF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        nav button {
+            background: #4db5ff;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .shape {
+            width: 1000px;
+            height: 500px;
+            background-color: #C1E8FF;
+            border-radius: 30px;
+            border: 10px solid #C1E8FF;
+            position: relative;
+            top: 150px;
+            left: 500px;
+            box-shadow: #021024 0px 0px 20px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #certifacte {
+            width: 850px;
+            height: 450px;
+            box-shadow: #7DA0CA 0px 0px 20px 10px;
+        }
